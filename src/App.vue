@@ -5,7 +5,7 @@ export default {
     components: {editor, UserImage},
     data() {
       return {
-        previewImage: 'src/assets/unknown.webp',
+        previewImage: 'https://i.ibb.co/QrCcwxb/unknown.webp',
         content:[''],
         images:'',
         name:'',
@@ -13,7 +13,7 @@ export default {
         imageDropdown: false,
         message:'Select your Family',
         image_message:'Select your Social Media Icon',
-        selected_social_media:'src/assets/icons/linkedin.png',
+        selected_social_media:'https://i.ibb.co/myDTCz2/linkedIn.png',
         username:'',
         desc:'',
         selectedFamily:'',
@@ -24,10 +24,10 @@ export default {
           {family_name:'Inter', family_value:'family-inter'},
         ],
         SocialImages:[
-          {image_name:'Facebook', image_value:'src/assets/icons/facebook.png'},
-          {image_name:'LinkedIn', image_value:'src/assets/icons/linkedin.png'},
-          {image_name:'Instagram', image_value:'src/assets/icons/instagram.png'},
-          {image_name:'Twitter', image_value:'src/assets/icons/twitter.png'},
+          {image_name:'Facebook', image_value:'https://i.ibb.co/4KT9jZB/facebook.png'},
+          {image_name:'LinkedIn', image_value:'https://i.ibb.co/myDTCz2/linkedIn.png'},
+          {image_name:'Instagram', image_value:'https://i.ibb.co/BZS2mRK/instagram.png'},
+          {image_name:'Twitter', image_value:'https://i.ibb.co/hXN1xJK/twitter.png'},
         ]
       }
     },
