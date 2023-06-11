@@ -5,7 +5,7 @@ export default {
     components: {editor, UserImage},
     data() {
       return {
-        previewImage: 'https://i.ibb.co/QrCcwxb/unknown.webp',
+        previewImage: 'https://projectfile.netlify.app/assets/post-builder/unknown.webp',
         content:[''],
         images:'',
         name:'',
@@ -13,7 +13,7 @@ export default {
         imageDropdown: false,
         message:'Select your Family',
         image_message:'Select your Social Media Icon',
-        selected_social_media:'https://i.ibb.co/myDTCz2/linkedIn.png',
+        selected_social_media:'https://projectfile.netlify.app/assets/post-builder/linkedIn.png',
         username:'',
         desc:'',
         selectedFamily:'',
@@ -24,10 +24,10 @@ export default {
           {family_name:'Inter', family_value:'family-inter'},
         ],
         SocialImages:[
-          {image_name:'Facebook', image_value:'https://i.ibb.co/4KT9jZB/facebook.png'},
-          {image_name:'LinkedIn', image_value:'https://i.ibb.co/myDTCz2/linkedIn.png'},
-          {image_name:'Instagram', image_value:'https://i.ibb.co/BZS2mRK/instagram.png'},
-          {image_name:'Twitter', image_value:'https://i.ibb.co/hXN1xJK/twitter.png'},
+          {image_name:'Facebook', image_value:'https://projectfile.netlify.app/assets/post-builder/facebook.png'},
+          {image_name:'LinkedIn', image_value:'https://projectfile.netlify.app/assets/post-builder/linkedIn.png'},
+          {image_name:'Instagram', image_value:'https://projectfile.netlify.app/assets/post-builder/instagram.png'},
+          {image_name:'Twitter', image_value:'https://projectfile.netlify.app/assets/post-builder/twitter.png'},
         ]
       }
     },
